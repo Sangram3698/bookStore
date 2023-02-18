@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  height: 23vh;
+  width: 11vw;
+  background: linear-gradient(to bottom,rgb(162, 155, 182),rgb(103, 106, 111));
+}
+.card_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title,.price{
+  color: cornsilk;
+}
