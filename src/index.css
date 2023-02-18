@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base{
+  html{
+    font-family: 'Mitr', sans-serif;
+  }
+}
+body{
+ background: #B9B9B9;
+}
+.btn{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+background: #2241E7;
+border-radius: 8px;
+width: 156px;
+height: 28px;
+
+}
+.avtar,.cart{
+  /* height: 60px;
+width:58px ; */
+}
+.search{
+  width: 130px;
+height: 27px;
+background: linear-gradient(90deg, #979797 0%, rgba(140, 140, 140, 0.29) 61.98%);
+border-radius: 10px;
+padding: 10px 0 0 5px;
+}
+.burger{
+  background: linear-gradient(to right,#B9B9B9,
+  #D9D9D9);
 }
